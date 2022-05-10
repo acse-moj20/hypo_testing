@@ -11,10 +11,20 @@ In general, a statistical hypothesis is a statement - an assumption - about the 
 
 ### Hypothesis generation
 
+When a hypothesis is generated, an educated guess of the various factors that are impacting the business problem under study is made. The main difference between hypothesis generation and hypothesis testing is that hypothesis generation is the process of making an educated guess while hypothesis testing is the analysis of the guess to reach a conclusion if the guess is true/false or if there is any statistical significance between variables. 
+
+Below are some of the roles hypothesis generation play in solvign DS/ML problems:
+ - Comprehension of the business problem and factors affecting the target variable.
+ - Guidance on the data collection process i.e. clarity on which data sources are key in converting the business problem to a DS-based problem. 
+ - More in-depth knowledge about the business domain.
+
+When should you perform hypothesis generation?
+ - Hypothesis generation should be done prior to data collection (or looking at the data). An adequate hypothesis generation makes sure that all the variables in the dataset (or even those not present) have been included.
+ 
 
 ## References 
 1. [Analytics Vidhya blog on hypothesis generation and testing.](https://www.analyticsvidhya.com/blog/2020/09/hypothesis-generation-data-science-projects/)
 
-2. [Science Direct.](https://www.sciencedirect.com/topics/mathematics/statistical-hypothesis#:~:text=Statistical%20hypothesis%3A%20A%20statement%20about,alternative%20to%20the%20null%20hypothesis.)
+2. [Science Direct](https://www.sciencedirect.com/topics/mathematics/statistical-hypothesis#:~:text=Statistical%20hypothesis%3A%20A%20statement%20about,alternative%20to%20the%20null%20hypothesis.)
 
 3. [Machinelearningmastery.com](https://machinelearningmastery.com/statistical-hypothesis-tests/)
