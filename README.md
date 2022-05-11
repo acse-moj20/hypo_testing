@@ -20,7 +20,15 @@ Below are some of the roles hypothesis generation play in solvign DS/ML problems
 
 When should you perform hypothesis generation?
  - Hypothesis generation should be done prior to data collection (or looking at the data). An adequate hypothesis generation makes sure that all the variables in the dataset (or even those not present) have been included.
- 
+
+### Hypothesis testing
+
+A type 1 error rate/significance level is the probability of rejecting the null hypothesis given that it is true. 
+
+Type 1 error - a mistaken rejection of an actually true null hypothesis.
+Type 2 error - a failure to reject a null hypothesis taht is actually false. 
+
+The basic concept of hypothesis testing is to **consider null hypothesis to be true until strong evidence is found against it**
 
 ## References 
 1. [Analytics Vidhya blog on hypothesis generation and testing.](https://www.analyticsvidhya.com/blog/2020/09/hypothesis-generation-data-science-projects/)
