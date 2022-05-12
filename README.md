@@ -28,7 +28,13 @@ A type 1 error rate/significance level is the probability of rejecting the null 
 Type 1 error - a mistaken rejection of an actually true null hypothesis.
 Type 2 error - a failure to reject a null hypothesis taht is actually false. 
 
-The basic concept of hypothesis testing is to **consider null hypothesis to be true until strong evidence is found against it**
+The basic concept of hypothesis testing is to **consider null hypothesis to be true until strong evidence is found against it**. The significance level(alpha), if smaller, it will require more evidence to reject the null hypothesis 
+
+Steps to perform hypothesis testing:
+1. Set the hypothesis. 2. Set the significance level/criteria for a decision. 3. Compute the test statistics 4. Make a decision (based on p-value).
+
+Note that **we are testing the null hypothesis because we think it is wrong**. If p-value is less than alpha, then we reject the null hypothesis. If the p-value is greater than alpha, we fail to reject the null hypothesis. 
+
 
 ## References 
 1. [Analytics Vidhya blog on hypothesis generation and testing.](https://www.analyticsvidhya.com/blog/2020/09/hypothesis-generation-data-science-projects/)
